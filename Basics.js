@@ -52,7 +52,7 @@ console.log(typeof age)
 */
 
 //07 Operation
-
+/*
 console.log(2+2);
 console.log(3-2);
 console.log(2*2);
@@ -70,3 +70,40 @@ console.log(1 + "2");
 console.log("1" + "2");
 console.log("1" + 2 + 2);
 console.log(1 + 2 + "3")
+
+*/
+
+//08 Comparision
+
+/*
+console.log(2>1);
+// console.log(1=1);
+console.log(10<5);
+console.log(2==1);
+console.log("2">1);
+console.log(true === 1);
+
+*/
+
+//Class 09 Data type summary - 
+/*
+Primative data type - 
+
+String
+Number
+Boolean
+null
+undefined
+Symbol
+
+Non-Primative
+Array
+Object
+function
+*/
+
+function myFunction(p1, p2) {
+    return p1 * p2;
+  }
+
+myFunction(2,4);
