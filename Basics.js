@@ -102,8 +102,72 @@ Object
 function
 */
 
+/*
 function myFunction(p1, p2) {
     return p1 * p2;
   }
 
 myFunction(2,4);
+
+*/
+
+//10 String---
+
+/*
+const name = "Pavan";
+const roll = "64";
+const Myname = new String("PavanKumar")
+
+console.log(`my name is ${name} and roll number is ${roll}`);
+console.log(name.length);
+console.log(name.toUpperCase())
+
+console.log(name.charAt("3"));
+console.log(name.indexOf("P"));
+
+console.log(Myname.indexOf("P"));
+
+const Newwords = "Hello Rajesh rao" //it splits in array form
+console.log(Newwords.split(" "));
+*/
+
+//Class 12 -- Numbers
+
+// const score = 400
+// const balance = new Number(100);
+
+// console.log(typeof score);
+// console.log(typeof balance);
+// console.log(score)
+// console.log(balance)
+
+//Math-----
+/*
+
+console.log(Math);
+
+console.log(Math.abs(-4))
+console.log(Math.ceil(4.2));
+console.log(Math.random());
+console.log(Math.random()*10);
+
+*/
+
+
+////////////////////////////////////////
+//Class 13 --Date
+/*
+let myDate = new Date();
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+
+const Mydates = new Date(23,0,23)
+console.log(Mydates.toDateString());
+
+let mycreatedate = new Date("01-14-2024");
+console.log(mycreatedate);
+
+
+let newdate = new Date()
+console.log(Date.now()/1000);
+*/
